@@ -15,13 +15,12 @@ This package needs:
 # How To Use
 
 1. Save file metastatus_alert2telegram.py to your script folder, for example /home/user/script/
-
-2. Run the script :
+2. Create a empty file on that same folder with script (/home/user/script/): previous_title.txt
+3. Run the script :
    python metastatus_alert2telegram.py
+4. If you want to monitor metastatus frequently, you can add it on crontab, for example :
 
-3. If you want to monitor metastatus frequently, you can add it on crontab, for example :
-
-*/5 * * * * cd /home/user/script/; python metastatus_alert2telegram.py
+   */5 * * * * cd /home/user/script/; python metastatus_alert2telegram.py
 
 
 # Version:
